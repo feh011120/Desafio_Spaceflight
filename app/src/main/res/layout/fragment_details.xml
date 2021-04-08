@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desfoque">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="351dp"
+        android:layout_height="302dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/acessoSite"
+            style="normal"
+            android:layout_width="351dp"
+            android:layout_height="45dp"
+            android:background="@color/gray3"
+            android:fontFamily="@font/roboto_medium"
+            android:text="learn more..."
+            android:textSize="15sp"
+            app:backgroundTint="@color/gray3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/titleInfo"
+            android:layout_width="302dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="34dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Hubble resumes science  observations after software error."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/infoSpace"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="NASA has partially restored the Hubble Space Telescope to science mode after a software error temporarily halted observations, but engineers continue studying a problem that kept the telescope’s aperture door from closing and a separate concern with Hubble’s main camera. NASA  said Friday that Hubble resumed scientific observations  at 8 p.m. EST Thursday (0100 GMT Friday) after going into  safe mode Sunday. "
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/acessoSite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleInfo" />
+
+        <ImageView
+            android:id="@+id/imageClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/close" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
