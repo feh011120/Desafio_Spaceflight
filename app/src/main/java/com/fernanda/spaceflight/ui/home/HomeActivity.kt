@@ -1,6 +1,7 @@
 package com.fernanda.spaceflight.ui.home
 
 import android.os.Bundle
+import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.fernanda.spaceflight.R
