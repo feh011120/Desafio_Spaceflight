@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Spaceflight</string>
+    <string name="tihasg_newss">Tihasg News</string>
+    <string name="loading">Loading...</string>
+    <string name="saber_mais">Saber mais ...</string>
+    <string name="ok">OK</string>
+    <string name="n_o_foi_poss_vel_carregar_not_cias">Não foi possível carregar notícias</string>
+    <string name="n_o_foi_poss_vel_carregar_as_not_cias">Não foi possível carregar as notícias</string>
+    <string name="tihasg_news">Tihasg News</string>
 </resources>

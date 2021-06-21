@@ -2,7 +2,7 @@ package com.fernanda.spaceflight.network.response
 
 import com.squareup.moshi.Json
 
-data class NewsResponse(
+data class NewResponse(
         @Json(name = "id")
         var id: String?,
 
@@ -18,17 +18,21 @@ data class NewsResponse(
         @Json(name = "imageUrl")
         var imageUrl: String?,
 
+
         @Json(name = "newsSite")
         var newsSite: String?,
 
+
         @Json(name = "summary")
         var summary: String?,
+
 
         @Json(name = "launches")
         var launches: List<LaunchesResponse?>,
 
         @Json(name = "events")
-        var events: List<EventsResponse?>
+        var events: List<EventsResponse>
+
 )
 
 data class LaunchesResponse(
@@ -40,9 +44,13 @@ data class LaunchesResponse(
 )
 
 data class EventsResponse(
+
         @Json(name = "id")
         var id: String?,
 
+
         @Json(name = "provider")
         var provider: String?
+
+
 )
